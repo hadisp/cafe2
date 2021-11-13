@@ -1,0 +1,62 @@
+﻿
+@font-face{
+    font-family:'vazir';
+    src:url("../fonts/Vazir.eot");
+    src:url("../fonts/Vazir.eot#iefix")format("embedded-opentype");
+    src:url("../fonts/Vazir.woff")format("woff");
+    src:url("../fonts/Vazir.ttf")format("truetype");
+}
+h1,h2,h3,h4,h5,p,span,input,ul,p,div,li,a,button,card{
+    font-family: vazir !important;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.uk-navbar-nav>li>a{
+    color: white;
+    font-size: medium;
+}
+
+.uk-navbar-nav>li:hover>a, .uk-navbar-nav>li>a.uk-open, .uk-navbar-nav>li>a:focus{
+    color: white;
+    transition:3s;
+}
+
+.mod-footer{
+    max-height:930px;
+
+}
+.mod-radius{
+    border-radius:5px;
+}
+.mod-offcan{
+    background-color: rgba(0, 0, 0,0.8);
+    
+}
+.uk-offcanvas-bar li:hover>a:after{
+   content:"";
+}
+.mod-gall-pic .uk-overlay{
+    background-color: rgba(0, 0, 0,0.8);
+    border-radius:5px;
+}
+.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle{
+    min-height: 40px;
+}
+.uk-button-text::before{
+    border-bottom: 2px solid white;
+}
+.uk-subnav>li>a{
+   color: black;
+}    
+.uk-svg:hover >*{
+    fill:#e7b35a;
+}
+.mod-l:hover a{
+    color: #e7b35a;
+}
+.mod-menu-button{
+    color: #e7b35a ;
+}
